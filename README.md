@@ -1,5 +1,10 @@
 # One Click Admin Login
 
+## 🔥 Use this only in local
+
+<img width="1244" alt="Screenshot 2024-11-26 at 21 18 39" src="https://github.com/user-attachments/assets/6efe1610-094d-4a7f-92ab-452833664469">
+
+
 ## Description
 
 The **One Click Admin Login** plugin displays a login button in the footer for non-logged-in users, allowing them to log in as admin with one click. This feature is particularly useful for site administrators who need quick access to the admin dashboard without going through the standard login process.
