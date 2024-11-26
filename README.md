@@ -4,9 +4,13 @@
 
 The **One Click Admin Login** plugin displays a login button in the footer for non-logged-in users, allowing them to log in as admin with one click. This feature is particularly useful for site administrators who need quick access to the admin dashboard without going through the standard login process.
 
+## What does it solve?
+
+If you run localwp or any other local development environment, you can quickly log in as admin, but it yoo need hot reload and you start using browser-sync you will need to login again and manually. This will log you automatically if you are supper user with ID 1.
+
 ## Features
 
-- **Easy Access**: A prominent login button is displayed in the footer for quick access to the admin area.
+- **Easy Access**: Add login button only if you are not logged in.
 - **Security**: Utilizes WordPress nonces to ensure that the login request is secure and valid.
 - **Fallback User**: If a specific user (e.g., 'dev') is not found, the plugin defaults to logging in the super admin (user ID 1).
 
