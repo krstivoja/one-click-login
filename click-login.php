@@ -21,7 +21,7 @@ function display_admin_login_button_in_footer()
     // Create the login button and add it to the footer
     $login_url = wp_nonce_url(admin_url('admin-ajax.php?action=one_click_admin_login'), 'one_click_login_nonce');
     echo '<div style="position:fixed; bottom:2rem; right:2rem; z-index:9999;">';
-    echo '<a href="' . esc_url($login_url) . '" class="button" style="background:darkred; color:white; border-radius:1rem; padding: 1rem; text-decoration:none;">Admin Login</a>';
+    echo '<a href="' . esc_url($login_url) . '" class="button" style="background:red; color:white; border-radius:1rem; padding: 1rem; text-decoration:none;">Admin Login</a>';
     echo '</div>';
 }
 
